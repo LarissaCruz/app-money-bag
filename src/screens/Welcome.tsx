@@ -31,6 +31,7 @@ const BottomSection = styled.View`
   width: 100%;
   padding:25px
   flex:1;
+  justify-content: flex-end;
 `;
 
 const Welcome: FunctionComponent = () => {
