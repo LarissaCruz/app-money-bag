@@ -4,6 +4,7 @@ import AppLoadding from "expo-app-loading";
 import { useFonts } from "expo-font";
 
 import Welcome from "./src/screens/Welcome";
+import RootStack from "./src/navigatiors/RootStack";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -14,5 +15,5 @@ export default function App() {
   if (!fontsLoaded) {
     return <AppLoadding />;
   }
-  return <Welcome />;
+  return <RootStack />;
 }
