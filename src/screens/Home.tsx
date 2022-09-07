@@ -8,7 +8,7 @@ import { colors } from "../components/colors";
 const HomeContainer = styled(Container)`
     background-color: ${colors.graylight};
     width: 100%
-    flex: 1,
+    flex: 1
 `;
 
 const Home: FunctionComponent = () => {

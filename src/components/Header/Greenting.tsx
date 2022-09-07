@@ -7,7 +7,7 @@ import RegularText from "../Texts/RegularText";
 import SmallText from "../Texts/SmallText";
 
 const StyledView = styled.View`
-  flex-direction: colum;
+  flex-direction: column;
   flex: 1;
   justify-content: center;
 `;

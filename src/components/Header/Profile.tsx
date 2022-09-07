@@ -10,7 +10,7 @@ import {
 import { GestureEvent } from "react-native-gesture-handler";
 
 const StyledView = styled.TouchableOpacity`
-  flex-direction: colum;
+  flex-direction: column;
   height: 45px;
   width: 45px;
   border-radius: 15px;

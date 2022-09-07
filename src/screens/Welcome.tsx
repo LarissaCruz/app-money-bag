@@ -40,7 +40,7 @@ const Welcome: FunctionComponent = () => {
       <StatusBar style="light" />
       <WelcomeContainer>
         <TopSection>
-          <TopImage source={background}></TopImage>
+          <TopImage source={background}/>
         </TopSection>
         <BottomSection>
           <BigText textStyles={{ width: "70%", marginBottom: 25 }}>

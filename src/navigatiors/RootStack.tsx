@@ -6,7 +6,7 @@ import Home from "../screens/Home";
 import { colors } from "../components/colors";
 import Greeting from "../components/Header/Greenting";
 import Profile from "../components/Header/Profile";
-import Avi from "../assets/avi/avata.png";
+import Avi from "../assets/avi/avatar.png";
 
 export type RootStackParamList = {
   Welcome: undefined;

@@ -1,6 +1,6 @@
 import React from "react";
 //costom font
-import AppLoadding from "expo-app-loading";
+//import AppLoadding from "expo-app-loading";
 import { useFonts } from "expo-font";
 
 import Welcome from "./src/screens/Welcome";
@@ -13,7 +13,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <AppLoadding />;
+    return null;
   }
   return <RootStack />;
 }
